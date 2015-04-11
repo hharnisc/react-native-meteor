@@ -15,3 +15,4 @@ $ npm install
 ```
 $ pod install
 ```
+![Screen Shot](https://raw.githubusercontent.com/hharnisc/react-native-meteor/master/ScreenShot.png)
