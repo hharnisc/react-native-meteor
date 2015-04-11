@@ -1,0 +1,6 @@
+framework module ObjectiveDDP {
+  umbrella header "Pods-AwesomeProject-ObjectiveDDP-umbrella.h"
+
+  export *
+  module * { export * }
+}
