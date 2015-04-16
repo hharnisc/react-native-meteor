@@ -20,6 +20,8 @@
 
 @synthesize bridge = _bridge;
 
+RCT_EXPORT_MODULE();
+
 - (void)connectWithURL:(NSString *)URLString {
   RCT_EXPORT();
   self.meteorClient = [[MeteorClient alloc] initWithDDPVersion:@"1"];
