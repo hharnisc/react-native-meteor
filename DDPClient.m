@@ -22,6 +22,10 @@
 
 RCT_EXPORT_MODULE();
 
+- (void)dealloc{
+  [[NSNotificationCenter defaultCenter] removeObserver:self];
+}
+
 - (void)connectWithURL:(NSString *)URLString {
   RCT_EXPORT();
   self.meteorClient = [[MeteorClient alloc] initWithDDPVersion:@"1"];
