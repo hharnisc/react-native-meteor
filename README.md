@@ -6,7 +6,7 @@ _If you're interested in using the React Native bridge this is still a good exam
 
 Note this is an experiment, subject to change. Also here's a post breaking down in more detail what was done, and what is needed for a more smooth developer experience 
 
-> [http://hharnisc.github.io/2015/04/15/react-native-and-meteor.html](Some Thoughts On Gluing React Native and Meteor)
+> [http://hharnisc.github.io/2015/04/15/react-native-and-meteor.html](http://hharnisc.github.io/2015/04/15/react-native-and-meteor.html)
 
 This works with the Meteor `todos` example project.
 
